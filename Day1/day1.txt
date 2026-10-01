@@ -1,0 +1,24 @@
+
+
+Node js is an runtime environment thal allows js to run outside browser anywhere it is not lang,frameworkot technology 
+every browser has its own js engine like v8 for chrome and spider monkey for firefox and for apple it has its own node js engine 
+ryon dahl want to run js outside the browser it take chrome v8 engine form chrome and perform some operation and apply libuv api has event loop and handle async operation and other api uses like  node api for ex. fs module crypto
+v8 engine coding is done through c++
+js->v8->node->c++
+
+node js is a runtime environment that runs the js
+
+package.json is a node js manifestation file and if i installed any thing than it comes in it 
+
+what is module and modular programer 
+step from normal module to es module
+"main": "index.js",
+to es module
+export default and named module
+
+2 ways to use other js file current js file
+1 common defaule or common js
+2 es module it also has 2 types
+deafult export and named export
+
+if 2 exports are done then it take last one export for taking both we use named export like{add,sub};

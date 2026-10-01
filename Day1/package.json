@@ -1,0 +1,12 @@
+{
+  "name": "node1",
+  "version": "1.0.0",
+  "description": "Node js is an runtime environment thal allows js to run outside browser anywhere it is not lang,frameworkot technology \r every browser has its own js engine like v8 for chrome and spider monkey for firefox and for apple it has its own node js engine \r ryon dahl want to run js outside the browser it take chrome v8 engine form chrome and perform some operation and apply libuv api has event loop and handle async operation and other api uses like  node api for ex. fs module crypto\r v8 engine coding is done through c++\r js->v8->node->c++",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
