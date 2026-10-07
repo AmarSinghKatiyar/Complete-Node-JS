@@ -2,3 +2,5 @@ get => server se data fetch karne ke liye use karte hai
 post => server par data send karna ho
 Patch => server par data alredy present ho but us data ko update karna ho tab use kiya jata hai
 delete => server par data alredy present hai or us data ko delete karna hai 
+
+models are used to create schema of database

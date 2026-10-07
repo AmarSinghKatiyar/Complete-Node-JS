@@ -22,3 +22,39 @@ export default and named module
 deafult export and named export
 
 if 2 exports are done then it take last one export for taking both we use named export like{add,sub};
+
+nnode module store what ever the package we store it gets all its dependency and dependency of dependency will store
+
+inside script we type "start":"node index.js" then we can type node start or we can  use test  in place of start 
+but if we type hello in that place we have to use npm run hello:- 
+there is only 2 command test and start
+but if other than that we do npm run name
+
+server is a computer that is on internet and can serve your request and handle it 
+http module help to create server
+
+url part
+http:-protocol part
+domain part:-
+path:-
+query parameter:-written after ? a long word of combintion of letter with no meaning it used when we send some extra info about anything 
+
+what is express and function
+backend framework,server generation,make modularity,provides middleware also it self a framework,routes
+
+diff in framework and library also 
+
+
+in next js we have to create a folder named api then only it run but no necessaryb in react hence react is a lib but next.js is not framework 
+and framework is rtrict and rigid to rules but library not
+
+internally express uses the http method 
+
+client side rendering
+server side rendring diff
+
+taskmanagement system/tralo clone
+social media feed interface
+e-learning quiz platform
+e-commerce catoalog
+analytics dashboard

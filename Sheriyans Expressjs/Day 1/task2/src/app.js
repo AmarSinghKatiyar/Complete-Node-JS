@@ -49,5 +49,26 @@ app.get("/notes",(req,res)=>{
     })
 })
 
+app.delete('/notes/:index',(req,res)=>{
+    const index = req.params.index /* index value has give with the help of req.params 
+    important use '/notes/:index in the express : respresent dynamic typing*/
+
+    delete notes[ index ];
+
+    res.status(200).json({
+        message:"note deleted successfully"
+    })
+})
+
+app.patch('/notes/:index',(req,res)=>{
+    const index = req.params.index
+    const description = req.body.description
+
+    notes[index].description = description
+
+    res.status(200).json({
+        message:"note description updated successfully"
+    })
+})
 
 module.exports = app;
