@@ -5,6 +5,12 @@ node_modules/
 bower_components/
 node_modules/
 
+
+# =========================
+# Text File variables
+# =========================
+*.txt
+
 # =========================
 # Environment variables
 # =========================

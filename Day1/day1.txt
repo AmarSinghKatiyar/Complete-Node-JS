@@ -1,5 +1,3 @@
-
-
 Node js is an runtime environment thal allows js to run outside browser anywhere it is not lang,frameworkot technology 
 every browser has its own js engine like v8 for chrome and spider monkey for firefox and for apple it has its own node js engine 
 ryon dahl want to run js outside the browser it take chrome v8 engine form chrome and perform some operation and apply libuv api has event loop and handle async operation and other api uses like  node api for ex. fs module crypto
@@ -58,3 +56,24 @@ social media feed interface
 e-learning quiz platform
 e-commerce catoalog
 analytics dashboard
+
+
+Rest api principal follow are called rest api 
+REST API PRINCIPAL:-
+1-> client and server are 2 different entity
+
+csr vs ssr
+in ssr all rendering has done on server side and then reponse get to client side now there is no more 
+need to render or processing on client side ic called ssr full diagram like request from browser->aws->db->data->html->browser
+
+csr:- in csr the all rendering is done on client side means all processing and rendering of component 
+has done in client side and then give reponse there is no backend will help for rerendering.
+
+
+csr:===
+browser->request->server->db->data->then processing data on client side as required in client format->processing->html->browser
+
+
+depend on use case csr or ssr better
+ssr  better in seo it does not mean csr is not better but ssr is best for seo
+csr is better for interactive
